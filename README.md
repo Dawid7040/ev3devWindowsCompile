@@ -1,7 +1,7 @@
 # How Install And Compile!
 
 ## Setup
-### Launch ``setup.bat`` file or run with `Powershell` with **`Admin`**:
+### Launch ``setup.bat`` file or run commands from below with `Powershell` as **`Admin`**:
 ```
 echo "exit" | wsl --install
 ubuntu config --default-user root
