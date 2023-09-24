@@ -39,9 +39,7 @@ endfunction()
 
 if (EV3DEV_LANG_CPP_MASTER_PROJECT)
     enable_testing()
-    add_subdirectory(tests)
-
-    add_subdirectory(demos)
+    add_subdirectory(main)
 
     #----------------------------------------------------------------------
     # Install the library, header, and cmake configuration
