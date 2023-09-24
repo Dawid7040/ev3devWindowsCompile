@@ -6,6 +6,9 @@ endif()
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_EXE_LINKER_FLAGS "-static")
+set(CMAKE_C_COMPILER "arm-linux-gnueabi-gcc")
+set(CMAKE_CXX_COMPILER "arm-linux-gnueabi-g++")
 
 project(ev3dev-lang-cpp)
 
